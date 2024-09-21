@@ -1,11 +1,49 @@
-/* Background color for the body */
+/* New background color */
 body {
-    background-color: #e0f7fa; /* Light blue background */
-    font-family: Arial, sans-serif;
+    background-color: #f5e1d4; /* Light peach background */
 }
 
-/* Text color and size for the content */
-h1, p {
-    color: #333; /* Dark gray text */
-    font-size: 1.5rem; /* Font size for both the heading and paragraph */
+/* Styling for h1 */
+h1 {
+    color: #3e4b5b; /* Dark blue */
+    font-family: 'Verdana', sans-serif;
+    font-size: 2rem;
+}
+
+/* Styling for h2 */
+h2 {
+    color: #ff6600; /* Orange */
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.75rem;
+}
+
+/* Styling for paragraphs */
+p {
+    color: #333;
+    font-family: 'Georgia', serif;
+    font-size: 1.25rem;
+}
+
+/* Box styling for about-me section */
+.about-me {
+    background-color: #ffe4b5; /* Light tan background */
+    border: 2px solid #ff6600; /* Orange border */
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 12px; /* Rounded corners */
+}
+
+/* Heading inside About Me */
+.about-me h2 {
+    color: #3e4b5b; /* Dark blue for heading */
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.75rem;
+}
+
+/* Paragraph inside About Me */
+.about-me p {
+    color: #333;
+    font-family: 'Georgia', serif;
+    font-size: 1.25rem;
 }
