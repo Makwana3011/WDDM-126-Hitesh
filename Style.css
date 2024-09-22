@@ -12,7 +12,7 @@ h1 {
 
 /* Styling for h2 */
 h2 {
-    color: #ff6600; /* Orange */
+    color: #73ecf3; /* Orange */
     font-family: 'Verdana', sans-serif;
     font-size: 1.75rem;
 }
@@ -27,7 +27,7 @@ p {
 /* Box styling for about-me section */
 .about-me {
     background-color: #ffe4b5; /* Light tan background */
-    border: 2px solid #ff6600; /* Orange border */
+    border: 2px solid #82ddf9; /* Orange border */
     padding: 20px;
     margin-top: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
@@ -46,4 +46,19 @@ p {
     color: #333;
     font-family: 'Georgia', serif;
     font-size: 1.25rem;
+}
+
+/* Styling for the image container */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Image styling */
+.image-container img {
+    width: 300px; /* Smaller image size */
+    height: auto;
+    border-radius: 50%; /* Circular profile image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    border: 2px solid #91e9f8; /* Orange border around the image */
 }
